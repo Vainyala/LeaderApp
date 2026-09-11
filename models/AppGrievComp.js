@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const SerialTracker = require('./SerialTracker');
 
 const STATUS_VALUES = [
-  'Open',
+   'Open',
   'In Progress',
   'Rejected',
   'Resolved',
