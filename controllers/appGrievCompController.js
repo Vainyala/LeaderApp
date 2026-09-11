@@ -13,11 +13,16 @@ const notificationService = require('../services/notificationService');
 */
 
 const ALLOWED_STATUSES = [
-  'Open',
-  'In-Progress',
-  'Pending',
+  // 'Open',
+  // 'In-Progress',
+  // 'Pending',
+  // 'Resolved',
+  // 'Closed'
+   'Open',
+  'In Progress',
+  'Rejected',
   'Resolved',
-  'Closed'
+  'Cancelled'
 ];
 
 
